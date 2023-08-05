@@ -4,8 +4,8 @@
 
 @layer base {
     @font-face {
-        font-family: 'Circular Std';
-        src: url('../public/font/CircularStd-Bold.ttf') format('ttf');
+        font-family: CircularStd;
+        src: url('../public/font/CircularStd-Bold.woff') format('woff');
     }
 
     html {
@@ -13,6 +13,6 @@
     }
 
     h1 {
-        font-family: Circular Std;
+        font-family: montserrat;
     }
 }
